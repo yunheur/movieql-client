@@ -1,2 +1,3 @@
-# movieql-client
-nomadcoders - Client for the MovieQL API build widh Apoll
+# MovieQL
+
+Client for the MovieQL API built with Apollo
