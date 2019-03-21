@@ -9,10 +9,10 @@ class App extends Component {
   render() {
     return <ApolloProvider client={client}>
         <Router>
-          <React.Fragment>
+          <Router>
             <Route exact={true} path={"/"} component={Home}/>
             <Route path={"/details/:movieId"} component={Detail}/>
-          </React.Fragment>
+          </Router>
         </Router>
     </ApolloProvider>
   }
